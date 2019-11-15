@@ -1,0 +1,10 @@
+main: nyc.welles.MetroInventoryTwo.Main
+version: 1.0
+name: MetroInventoryPlugin
+permissions:
+  metroinv.setunlocked:
+    description: Be able to change if a players inventory is vanilla or metro
+    default: false
+  metroinv.bypass:
+    description: switch to vanilla inventory
+    default: false
